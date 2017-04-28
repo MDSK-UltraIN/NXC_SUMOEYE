@@ -1,0 +1,14 @@
+  #include "SE-lib.nxc"
+  task main()
+  { int ob;
+    string x,y;
+
+    while(true)
+    {
+        RotateMotorEx(OUT_BC,-30,-90,0,true,false);
+        Wait(500);
+        Off(OUT_BC);
+        Wait(500)
+
+    }
+}

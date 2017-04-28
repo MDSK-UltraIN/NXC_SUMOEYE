@@ -1,0 +1,47 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0main	6	1	0	4	4
+1	__signed_stack_001main	6	1	4	4	2
+2	____initialize_global_data_return	1	1	8	1	3
+3	__zfmain	1	1	9	1	2
+4	__constValNeg50	2	0	10	1	1
+5	__constVal63	2	0	11	1	1
+6	__constVal96	2	0	12	1	1
+7	__PFTmp	1	1	13	1	1
+8	__constVal2	2	0	14	1	1
+9	__constVal0	2	1	15	1	1
+10	__constVal32	2	0	16	1	3
+11	__constVal7	2	0	17	1	1
+12	__OUT_BC	7	0	18	4	1
+13	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	2	0	#line 2 "Y:\亞洲機器人大賽\test.nxc"
+0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	2	2	#line 2 "Y:\亞洲機器人大賽\test.nxc"
+0	6	2	#line 6 "Y:\亞洲機器人大賽\test.nxc"
+0	7	2		set __D0main, 1
+0	7	5	#line 7 "Y:\亞洲機器人大賽\test.nxc"
+0	8	5		tst 5, __zfmain, __D0main
+0	7	8	#line 7 "Y:\亞洲機器人大賽\test.nxc"
+0	8	8		brtst 4, __NXC_Label_560, __zfmain
+0	7	11	#line 7 "Y:\亞洲機器人大賽\test.nxc"
+0	8	11		mov __signed_stack_001main, __constValNeg50
+0	7	13	#line 7 "Y:\亞洲機器人大賽\test.nxc"
+0	7	13	#line 7 "Y:\亞洲機器人大賽\test.nxc"
+0	8	13		set __D0main, 0
+0	10	16	#line 10 "Y:\亞洲機器人大賽\test.nxc"
+0	11	16	#pragma macro 7
+0	11	16		setout __OUT_BC, 2, __signed_stack_001main, 1, __constVal7, 8, __constVal2, 7, __D0main, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4469	39	#line 4469 "Y:\亞洲機器人大賽\test.nxc"
+0	10	39	#line 10 "Y:\亞洲機器人大賽\test.nxc"
+0	13	39	#line 13 "Y:\亞洲機器人大賽\test.nxc"
+0	14	39		jmp __NXC_Label_559
+0	13	41	#line 13 "Y:\亞洲機器人大賽\test.nxc"
+0	14	41		exit -1, -1
+1	14	0	#line 14 "Y:\亞洲機器人大賽\test.nxc"
+1	15	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	Y:\亞洲機器人大賽\test.nxc
+1	__initialize_global_data	44	Y:\亞洲機器人大賽\test.nxc

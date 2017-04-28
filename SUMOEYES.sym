@@ -1,0 +1,1213 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__CLSCSMutex3	9	0	0	4	2
+1	__unsigned_stack_001SumoEyes_SetShortRange	5	1	4	4	2
+2	__CLSWMutex3	9	0	8	4	2
+3	__unsigned_stack_001SumoEyes_SetLongRange	5	1	12	4	2
+4	__CLSRMutex1	9	0	16	4	2
+5	__D0SumoEyes_DetectObstacleZone	6	1	20	4	36
+6	__CLSRMutex3	9	0	24	4	2
+7	__D0main	6	1	28	4	52
+8	__Wait_7qG2_ms_7qG2_000_inline_SumoEyes_SetLongRange	5	1	32	4	2
+9	__RLSBmutex3	9	0	36	4	4
+10	__D0SE_OBZoneToString	6	1	40	4	5
+11	__Wait_7qG2_ms_7qG2_000_inline_SumoEyes_SetShortRange	5	1	44	4	2
+12	__RLSBmutex1	9	0	48	4	4
+13	__DU0SetSensorLowspeed_inline_main	5	1	52	4	4
+14	__ResetSensorMutex	9	0	56	4	8
+15	__D0SetSensorLowspeed_inline_main	6	1	60	4	6
+16	__signed_stack_003main	6	1	64	4	4
+17	__signed_stack_002main	6	1	68	4	10
+18	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	72	4	18
+19	__signed_stack_001main	6	1	76	4	28
+20	__D0SumoEyes_SetLongRange	6	1	80	4	3
+21	__signed_stack_002SumoEyes_DetectObstacleZone	6	1	84	4	6
+22	__CLSCSMutex1	9	0	88	4	2
+23	__CLSWMutex1	9	0	92	4	2
+24	__signed_stack_001SumoEyes_DetectObstacleZone	6	1	96	4	14
+25	__D0SumoEyes_SetShortRange	6	1	100	4	3
+26	__SumoEyes_DetectObstacleZone_7qG2_se_value_7qG2_000	4	1	104	2	9
+27	__constVal1023	4	0	106	2	1
+28	__SE_OBZoneToString_7qG2_ob_7qG2_000	4	1	108	2	6
+29	__main_7qG2_ob_7qG2_000	4	1	110	2	5
+30	__SetSensorType_7qG2_port_7qG2_000_inline_SumoEyes_SetLongRange	1	1	112	1	2
+31	__SumoEyes_SetLongRange_return	1	1	113	1	3
+32	__SumoEyes_SetLongRange_7qG2_port_7qG2_000	1	1	114	1	4
+33	__SE_OBZoneToString_return	1	1	115	1	11
+34	currRange	1	1	116	1	4
+35	__SumoEyes_DetectObstacleZone_return	1	1	117	1	11
+36	__SumoEyes_DetectObstacleZone_7qG2_port_7qG2_000	1	1	118	1	6
+37	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	119	1	4
+38	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	120	1	4
+39	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	121	1	4
+40	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	122	1	8
+41	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	123	1	4
+42	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	124	1	4
+43	__constVal63	2	0	125	1	18
+44	__constValNeg20	2	0	126	1	6
+45	__constValNeg40	2	0	127	1	3
+46	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	128	1	4
+47	__constValNeg50	2	0	129	1	1
+48	__constVal96	2	0	130	1	18
+49	__ResetSensor_7qG2_port_7qG2_000_inline_SumoEyes_SetLongRange	1	1	131	1	2
+50	__SumoEyes_SetShortRange_7qG2_port_7qG2_000	1	1	132	1	4
+51	__SumoEyes_SetShortRange_return	1	1	133	1	3
+52	__SetSensorType_7qG2_type_7qG2_000_inline_SumoEyes_SetLongRange	1	1	134	1	2
+53	__SetSensorMode_7qG2_port_7qG2_000_inline_SumoEyes_SetLongRange	1	1	135	1	2
+54	__SetSensorMode_7qG2_mode_7qG2_000_inline_SumoEyes_SetLongRange	1	1	136	1	2
+55	__SetSensorMode_7qG2_mode_7qG2_000_inline_SumoEyes_SetShortRange	1	1	137	1	2
+56	__ResetSensor_7qG2_port_7qG2_000_inline_SumoEyes_SetShortRange	1	1	138	1	2
+57	____initialize_global_data_return	1	1	139	1	3
+58	__SetSensorType_7qG2_port_7qG2_000_inline_SumoEyes_SetShortRange	1	1	140	1	2
+59	__SetSensorType_7qG2_type_7qG2_000_inline_SumoEyes_SetShortRange	1	1	141	1	2
+60	__SetSensorMode_7qG2_port_7qG2_000_inline_SumoEyes_SetShortRange	1	1	142	1	2
+61	__RLSBIterations3	1	1	143	1	4
+62	__RLSBytesCount3	1	1	144	1	8
+63	__RLSBResult3	2	1	145	1	7
+64	____ResetSensorSubroutine_return	1	1	146	1	6
+65	__PFTmp	1	1	147	1	1
+66	__constValNeg100	2	0	148	1	1
+67	__constVal100	2	0	149	1	1
+68	__RLSBResult1	2	1	150	1	7
+69	____ReadLSBytes1_return	1	1	151	1	4
+70	__constVal15	2	0	152	1	10
+71	__RLSBytesCount1	1	1	153	1	8
+72	____ReadLSBytes3_return	1	1	154	1	4
+73	__constVal2	2	0	155	1	12
+74	__RLSBIterations1	1	1	156	1	4
+75	__constVal32	2	0	157	1	54
+76	__zfSumoEyes_SetShortRange	1	1	158	1	3
+77	__constVal1	2	0	159	1	9
+78	__zfSumoEyes_DetectObstacleZone	1	1	160	1	21
+79	__zfSumoEyes_SetLongRange	1	1	161	1	3
+80	__zfSetSensorLowspeed_inline_main	1	1	162	1	4
+81	__ResetSensorPort	1	1	163	1	6
+82	__ResetSensorTmp	1	1	164	1	2
+83	__constVal7	2	0	165	1	8
+84	__zfmain	1	1	166	1	26
+85	__constVal0	2	1	167	1	48
+86	__constVal3	2	0	168	1	11
+87	__CLSRArgs3	8	0	4	12	5
+88	__CLSRArgs3.Result	2	1	172	1	5
+89	__CLSRArgs3.Port	1	1	173	1	5
+90	__CLSRArgs3.Buffer	7	0	174	4	5
+91	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+92	__CLSRArgs3.BufferLen	1	1	176	1	5
+93	__CLSWArgs3	8	0	4	12	5
+94	__CLSWArgs3.Result	2	1	180	1	5
+95	__CLSWArgs3.Port	1	1	181	1	5
+96	__CLSWArgs3.Buffer	7	0	182	4	5
+97	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+98	__CLSWArgs3.ReturnLen	1	1	184	1	5
+99	__CLSCSArgs3	8	0	3	4	4
+100	__CLSCSArgs3.Result	2	1	188	1	4
+101	__CLSCSArgs3.Port	1	1	189	1	4
+102	__CLSCSArgs3.BytesReady	1	1	190	1	4
+103	__TextOutArgs	8	0	4	16	21
+104	__TextOutArgs.Result	2	1	192	1	21
+105	__TextOutArgs.Location	8	0	2	4	21
+106	__TextOutArgs.Location.X	4	1	196	2	21
+107	__TextOutArgs.Location.Y	4	1	198	2	21
+108	__TextOutArgs.Text	7	0	200	4	21
+109	__TextOutArgs.Text.Text_type	1	0	0	1	0
+110	__TextOutArgs.Options	5	1	204	4	21
+111	__CLSWArgs1	8	0	4	12	5
+112	__CLSWArgs1.Result	2	1	208	1	5
+113	__CLSWArgs1.Port	1	1	209	1	5
+114	__CLSWArgs1.Buffer	7	0	210	4	5
+115	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+116	__CLSWArgs1.ReturnLen	1	1	212	1	5
+117	__CLSCSArgs1	8	0	3	4	4
+118	__CLSCSArgs1.Result	2	1	216	1	4
+119	__CLSCSArgs1.Port	1	1	217	1	4
+120	__CLSCSArgs1.BytesReady	1	1	218	1	4
+121	__CLSRArgs1	8	0	4	12	5
+122	__CLSRArgs1.Result	2	1	220	1	5
+123	__CLSRArgs1.Port	1	1	221	1	5
+124	__CLSRArgs1.Buffer	7	0	222	4	5
+125	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+126	__CLSRArgs1.BufferLen	1	1	224	1	5
+127	__OUT_BC	7	0	226	4	12
+128	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+129	__constStr0013	7	0	228	4	1
+130	__constStr0013.__constStr0013_type	1	1	0	1	0
+131	__main_7qG2_y_7qG2_000	7	0	230	4	2
+132	__main_7qG2_y_7qG2_000.__main_7qG2_y_7qG2_000_type	1	0	0	1	0
+133	__constStr0009	7	0	232	4	1
+134	__constStr0009.__constStr0009_type	1	1	0	1	0
+135	__constStr0010	7	0	234	4	3
+136	__constStr0010.__constStr0010_type	1	1	0	1	0
+137	__constStr0011	7	0	236	4	2
+138	__constStr0011.__constStr0011_type	1	1	0	1	0
+139	__strtmpbufmain	7	0	238	4	10
+140	__strtmpbufmain.__strtmpbufmain_type	1	0	0	1	0
+141	__strbufSE_OBZoneToString	7	0	240	4	9
+142	__strbufSE_OBZoneToString.__strbufSE_OBZoneToString_type	1	0	0	1	0
+143	__strretvalmain	7	0	242	4	10
+144	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+145	__strbufmain	7	0	244	4	35
+146	__strbufmain.__strbufmain_type	1	0	0	1	0
+147	__RLSLastGoodRead1	7	0	246	4	2
+148	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+149	__RLSBbufLSWrite1	7	0	248	4	4
+150	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+151	__main_7qG2_x_7qG2_000	7	0	250	4	10
+152	__main_7qG2_x_7qG2_000.__main_7qG2_x_7qG2_000_type	1	0	0	1	0
+153	__RLSReadBuf1	7	0	252	4	10
+154	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+155	__constStr0012	7	0	254	4	3
+156	__constStr0012.__constStr0012_type	1	1	0	1	0
+157	__RLSReadBuf3	7	0	256	4	10
+158	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+159	__RLSLastGoodRead3	7	0	258	4	2
+160	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	4	0	#line 4 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	5	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	4	2	#line 4 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	6	2	#line 6 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	7	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	6	5	#line 6 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	7	5	#line 7 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	8	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	7	#line 3758 "NXCDefs.h"
+0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3758	9	#line 3758 "NXCDefs.h"
+0	3759	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	11	#line 3758 "NXCDefs.h"
+0	3759	11		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	14	#line 3758 "NXCDefs.h"
+0	3759	14		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	17	#line 3758 "NXCDefs.h"
+0	3759	17		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	20	#line 3758 "NXCDefs.h"
+0	3759	20		jmp __004__NXC_Label_37
+0	3758	22	#line 3758 "NXCDefs.h"
+0	3759	22		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	25	#line 3758 "NXCDefs.h"
+0	3759	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3759	31	#line 3759 "NXCDefs.h"
+0	3760	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3759	33	#line 3759 "NXCDefs.h"
+0	3760	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	36	#line 3759 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3760	40	#line 3760 "NXCDefs.h"
+0	3761	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	42	#line 3760 "NXCDefs.h"
+0	3694	42	#line 3694 "NXCDefs.h"
+0	3695	42	#pragma macro 4
+0	3695	42		acquire __ResetSensorMutex
+0	3695	43		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main
+0	3695	45		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3695	47		release __ResetSensorMutex
+0	4628	48	#line 4628 "NXCDefs.h"
+0	3694	48	#line 3694 "NXCDefs.h"
+0	3761	48	#line 3761 "NXCDefs.h"
+0	7	48	#line 7 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	7	48	#line 7 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	8	48		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 1
+0	7	51	#line 7 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	9	51	#line 9 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	10	51		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	3758	53	#line 3758 "NXCDefs.h"
+0	3759	53		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3758	55	#line 3758 "NXCDefs.h"
+0	3758	55	#line 3758 "NXCDefs.h"
+0	3759	55		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	3758	57	#line 3758 "NXCDefs.h"
+0	3759	57		tst 5, __zfSetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	3758	60	#line 3758 "NXCDefs.h"
+0	3759	60		brtst 4, __005__NXC_Label_36, __zfSetSensorLowspeed_inline_main
+0	3758	63	#line 3758 "NXCDefs.h"
+0	3759	63		set __D0SetSensorLowspeed_inline_main, 11
+0	3758	66	#line 3758 "NXCDefs.h"
+0	3759	66		jmp __005__NXC_Label_37
+0	3758	68	#line 3758 "NXCDefs.h"
+0	3759	68		set __D0SetSensorLowspeed_inline_main, 10
+0	3758	71	#line 3758 "NXCDefs.h"
+0	3759	71		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __D0SetSensorLowspeed_inline_main
+0	3663	73	#line 3663 "NXCDefs.h"
+0	3664	73		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3663	77	#line 3663 "NXCDefs.h"
+0	3759	77	#line 3759 "NXCDefs.h"
+0	3759	77	#line 3759 "NXCDefs.h"
+0	3760	77		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3759	79	#line 3759 "NXCDefs.h"
+0	3759	79	#line 3759 "NXCDefs.h"
+0	3760	79		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	3759	82	#line 3759 "NXCDefs.h"
+0	3676	82	#line 3676 "NXCDefs.h"
+0	3677	82		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	3676	86	#line 3676 "NXCDefs.h"
+0	3760	86	#line 3760 "NXCDefs.h"
+0	3760	86	#line 3760 "NXCDefs.h"
+0	3761	86		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	3760	88	#line 3760 "NXCDefs.h"
+0	3694	88	#line 3694 "NXCDefs.h"
+0	3695	88	#pragma macro 4
+0	3695	88		acquire __ResetSensorMutex
+0	3695	89		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main
+0	3695	91		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3695	93		release __ResetSensorMutex
+0	4695	94	#line 4695 "NXCDefs.h"
+0	3694	94	#line 3694 "NXCDefs.h"
+0	3761	94	#line 3761 "NXCDefs.h"
+0	9	94	#line 9 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	10	94	#line 10 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	11	94		set __D0main, 1
+0	12	97	#line 12 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	13	97		tst 5, __zfmain, __D0main
+0	12	100	#line 12 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	13	100		brtst 4, __NXC_Label_564, __zfmain
+0	12	103	#line 12 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	13	103		set __SumoEyes_SetLongRange_7qG2_port_7qG2_000, 2
+0	12	106	#line 12 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	13	106	#line 13 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	14	106		subcall SumoEyes_SetLongRange, __SumoEyes_SetLongRange_return
+0	13	108	#line 13 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	13	108	#line 13 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	14	108		set __SumoEyes_SetShortRange_7qG2_port_7qG2_000, 2
+0	13	111	#line 13 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	14	111	#line 14 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	15	111		subcall SumoEyes_SetShortRange, __SumoEyes_SetShortRange_return
+0	14	113	#line 14 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	14	113	#line 14 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	15	113		set __SumoEyes_DetectObstacleZone_7qG2_port_7qG2_000, 2
+0	14	116	#line 14 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	15	116	#line 15 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	16	116		subcall SumoEyes_DetectObstacleZone, __SumoEyes_DetectObstacleZone_return
+0	15	118	#line 15 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	16	118		mov __main_7qG2_ob_7qG2_000, __D0SumoEyes_DetectObstacleZone
+0	15	120	#line 15 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	15	120	#line 15 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	15	120	#line 15 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	16	120		mov __SE_OBZoneToString_7qG2_ob_7qG2_000, __D0SumoEyes_DetectObstacleZone
+0	15	122	#line 15 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	16	122	#line 16 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	17	122		subcall SE_OBZoneToString, __SE_OBZoneToString_return
+0	16	124	#line 16 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	17	124		mov __strretvalmain, __strbufSE_OBZoneToString
+0	16	126	#line 16 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	17	126		strcat __strbufmain, __strretvalmain
+0	16	130	#line 16 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	17	130		mov __main_7qG2_x_7qG2_000, __strbufmain
+0	16	132	#line 16 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	16	132	#line 16 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	17	132		set __SumoEyes_DetectObstacleZone_7qG2_port_7qG2_000, 2
+0	16	135	#line 16 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	17	135	#line 17 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	18	135		subcall SumoEyes_DetectObstacleZone, __SumoEyes_DetectObstacleZone_return
+0	17	137	#line 17 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	17	137	#line 17 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	17	137	#line 17 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	17	137	#line 17 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	18	137		mov __SE_OBZoneToString_7qG2_ob_7qG2_000, __main_7qG2_ob_7qG2_000
+0	17	139	#line 17 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	18	139	#line 18 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	139		subcall SE_OBZoneToString, __SE_OBZoneToString_return
+0	18	141	#line 18 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	141		mov __strretvalmain, __strbufSE_OBZoneToString
+0	18	143	#line 18 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	143		strcat __strbufmain, __strretvalmain
+0	18	147	#line 18 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	147		mov __main_7qG2_y_7qG2_000, __strbufmain
+0	18	149	#line 18 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	18	149	#line 18 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	149		set __signed_stack_001main, 0
+0	18	152	#line 18 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	18	152	#line 18 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	152		set __signed_stack_002main, 40
+0	18	155	#line 18 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	18	155	#line 18 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	155	#pragma macro 26
+0	19	155		acquire __RLSBmutex1
+0	19	156		mov __RLSReadBuf1, __RLSBbufLSWrite1
+0	19	158		set __RLSBytesCount1, 1
+0	19	161		wait2 NA, __constVal15
+0	19	164		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+0	19	166		index __D0main, __RLSReadBuf1, 65535
+0	19	170		release __RLSBmutex1
+0	4799	171	#line 4799 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	18	171	#line 18 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	171		mov __signed_stack_003main, __D0main
+0	18	173	#line 18 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	173		set __D0main, 1
+0	19	176	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	176	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	176		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	19	178	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	178		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	19	180	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	180		mov __TextOutArgs.Options, __D0main
+0	19	182	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	182		numtostr __TextOutArgs.Text, __signed_stack_003main
+0	19	185	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	185		syscall 13, __TextOutArgs
+0	19	188	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	188	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	188	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	188	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	188	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	188		set __signed_stack_001main, 80
+0	19	191	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	191	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	191		set __signed_stack_002main, 32
+0	19	194	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	194	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	194	#pragma macro 26
+0	20	194		acquire __RLSBmutex3
+0	20	195		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	20	197		set __RLSBytesCount3, 1
+0	20	200		wait2 NA, __constVal15
+0	20	203		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	20	205		index __D0main, __RLSReadBuf3, 65535
+0	20	209		release __RLSBmutex3
+0	4839	210	#line 4839 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	19	210	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	210		mov __signed_stack_003main, __D0main
+0	19	212	#line 19 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	212		set __D0main, 1
+0	20	215	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	215	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	21	215		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	20	217	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	21	217		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	20	219	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	21	219		mov __TextOutArgs.Options, __D0main
+0	20	221	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	21	221		numtostr __TextOutArgs.Text, __signed_stack_003main
+0	20	224	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	21	224		syscall 13, __TextOutArgs
+0	20	227	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	227	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	227	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	227	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	227	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	21	227		mov __signed_stack_001main, __constValNeg50
+0	20	229	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	20	229	#line 20 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	21	229		set __D0main, 0
+0	21	232	#line 21 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	22	232	#pragma macro 7
+0	22	232		setout __OUT_BC, 2, __signed_stack_001main, 1, __constVal7, 8, __constVal2, 7, __D0main, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4877	255	#line 4877 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	21	255	#line 21 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	21	255	#line 21 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	22	255		set __signed_stack_001main, 0
+0	21	258	#line 21 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	21	258	#line 21 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	22	258		set __signed_stack_002main, 56
+0	21	261	#line 21 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	21	261	#line 21 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	22	261		strcat __strbufmain, __main_7qG2_x_7qG2_000
+0	22	265	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	22	265	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	265		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	22	267	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	267		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	22	269	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	269		set __TextOutArgs.Options, 0
+0	22	272	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	272		mov __TextOutArgs.Text, __strbufmain
+0	22	274	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	274		syscall 13, __TextOutArgs
+0	22	277	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	22	277	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	22	277	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	22	277	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	277		set __signed_stack_001main, 0
+0	22	280	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	22	280	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	280		set __signed_stack_002main, 48
+0	22	283	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	22	283	#line 22 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	283		strcat __strbufmain, __main_7qG2_y_7qG2_000
+0	23	287	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	287	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	287		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	23	289	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	289		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	23	291	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	291		set __TextOutArgs.Options, 0
+0	23	294	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	294		mov __TextOutArgs.Text, __strbufmain
+0	23	296	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	296		syscall 13, __TextOutArgs
+0	23	299	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	299		mov __D0main, __TextOutArgs.Result
+0	23	301	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	301	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	301	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	301	#pragma macro 26
+0	24	301		acquire __RLSBmutex3
+0	24	302		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	24	304		set __RLSBytesCount3, 1
+0	24	307		wait2 NA, __constVal15
+0	24	310		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	24	312		index __D0main, __RLSReadBuf3, 65535
+0	24	316		release __RLSBmutex3
+0	4942	317	#line 4942 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	317	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	317		mov __signed_stack_001main, __D0main
+0	23	319	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	319		set __D0main, 25
+0	23	322	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	322		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	23	326	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	326		mov __D0main, __zfmain
+0	23	328	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	328		brtst 5, __NXC_Label_611, __zfmain
+0	23	331	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	331		mov __signed_stack_001main, __D0main
+0	23	333	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	333	#pragma macro 26
+0	24	333		acquire __RLSBmutex1
+0	24	334		mov __RLSReadBuf1, __RLSBbufLSWrite1
+0	24	336		set __RLSBytesCount1, 1
+0	24	339		wait2 NA, __constVal15
+0	24	342		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+0	24	344		index __D0main, __RLSReadBuf1, 65535
+0	24	348		release __RLSBmutex1
+0	4957	349	#line 4957 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	23	349	#line 23 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	349		mov __signed_stack_002main, __D0main
+0	24	351	#line 24 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	25	351		set __D0main, 25
+0	24	354	#line 24 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	25	354		cmp 0, __zfmain, __signed_stack_002main, __D0main
+0	24	358	#line 24 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	24	358	#line 24 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	25	358		or __D0main, __signed_stack_001main, __zfmain
+0	25	362	#line 25 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	26	362		tst 5, __zfmain, __D0main
+0	25	365	#line 25 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	26	365		brtst 4, __NXC_Label_614, __zfmain
+0	25	368	#line 25 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	26	368		mov __signed_stack_001main, __constValNeg20
+0	25	370	#line 25 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	25	370	#line 25 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	26	370		set __D0main, 0
+0	26	373	#line 26 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	27	373	#pragma macro 7
+0	27	373		setout __OUT_BC, 2, __signed_stack_001main, 1, __constVal7, 8, __constVal2, 7, __D0main, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4985	396	#line 4985 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	26	396	#line 26 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	27	396	#line 27 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	27	396	#line 27 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	28	396		strcat __strbufmain, __main_7qG2_x_7qG2_000
+0	27	400	#line 27 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	28	400		mov __strtmpbufmain, __strbufmain
+0	28	402	#line 28 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	29	402		strcat __strbufmain, __constStr0010
+0	28	406	#line 28 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	29	406		cmp 4, __zfmain, __strtmpbufmain, __strbufmain
+0	28	410	#line 28 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	29	410		mov __D0main, __zfmain
+0	29	412	#line 29 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	30	412		brtst 4, __NXC_Label_621, __zfmain
+0	31	415	#line 31 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	32	415	#pragma macro 7
+0	32	415		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5004	438	#line 5004 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	31	438	#line 31 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	33	438	#line 33 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	34	438		set __SumoEyes_DetectObstacleZone_7qG2_port_7qG2_000, 2
+0	33	441	#line 33 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	34	441	#line 34 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	35	441		subcall SumoEyes_DetectObstacleZone, __SumoEyes_DetectObstacleZone_return
+0	34	443	#line 34 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	35	443		mov __main_7qG2_ob_7qG2_000, __D0SumoEyes_DetectObstacleZone
+0	34	445	#line 34 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	34	445	#line 34 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	34	445	#line 34 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	35	445		mov __SE_OBZoneToString_7qG2_ob_7qG2_000, __D0SumoEyes_DetectObstacleZone
+0	34	447	#line 34 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	35	447	#line 35 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	36	447		subcall SE_OBZoneToString, __SE_OBZoneToString_return
+0	35	449	#line 35 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	36	449		mov __strretvalmain, __strbufSE_OBZoneToString
+0	35	451	#line 35 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	36	451		strcat __strbufmain, __strretvalmain
+0	35	455	#line 35 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	36	455		mov __main_7qG2_x_7qG2_000, __strbufmain
+0	35	457	#line 35 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	35	457	#line 35 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	36	457		mov __signed_stack_001main, __constValNeg20
+0	35	459	#line 35 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	35	459	#line 35 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	36	459		set __D0main, 100
+0	37	462	#line 37 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	38	462	#pragma macro 7
+0	38	462		setout __OUT_BC, 2, __signed_stack_001main, 1, __constVal7, 8, __constVal2, 7, __D0main, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5048	485	#line 5048 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	37	485	#line 37 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	38	485	#line 38 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	39	485		strcat __strbufmain, __main_7qG2_x_7qG2_000
+0	38	489	#line 38 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	39	489		mov __strtmpbufmain, __strbufmain
+0	39	491	#line 39 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	40	491		strcat __strbufmain, __constStr0010
+0	39	495	#line 39 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	40	495		cmp 4, __zfmain, __strtmpbufmain, __strbufmain
+0	39	499	#line 39 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	40	499		mov __D0main, __zfmain
+0	39	501	#line 39 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	40	501		brtst 4, __NXC_Label_623, __zfmain
+0	39	504	#line 39 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	40	504		jmp __NXC_Label_622
+0	39	506	#line 39 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	39	506	#line 39 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	40	506		mov __signed_stack_001main, __constValNeg40
+0	39	508	#line 39 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	39	508	#line 39 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	40	508		set __D0main, 0
+0	40	511	#line 40 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	41	511	#pragma macro 7
+0	41	511		setout __OUT_BC, 2, __signed_stack_001main, 1, __constVal7, 8, __constVal2, 7, __D0main, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5079	534	#line 5079 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	40	534	#line 40 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	40	534	#line 40 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	41	534		set __Wait_7qG2_ms_7qG2_000_inline_main, 700
+0	40	537	#line 40 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	7921	537	#line 7921 "NXCDefs.h"
+0	7922	537		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	540	#line 7921 "NXCDefs.h"
+0	41	540	#line 41 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	42	540	#line 42 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	43	540	#pragma macro 7
+0	43	540		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5096	563	#line 5096 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	42	563	#line 42 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	42	563	#line 42 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	43	563		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	42	566	#line 42 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	7921	566	#line 7921 "NXCDefs.h"
+0	7922	566		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	569	#line 7921 "NXCDefs.h"
+0	43	569	#line 43 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	44	569	#line 44 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	45	569	#pragma macro 7
+0	45	569		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5109	592	#line 5109 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	44	592	#line 44 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	44	592	#line 44 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	45	592		mov __D0main, __constValNeg20
+0	45	594	#line 45 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	46	594	#pragma macro 7
+0	46	594		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5116	617	#line 5116 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	45	617	#line 45 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	45	617	#line 45 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	46	617		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	45	620	#line 45 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	7921	620	#line 7921 "NXCDefs.h"
+0	7922	620		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	623	#line 7921 "NXCDefs.h"
+0	46	623	#line 46 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	47	623	#line 47 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	47	623	#line 47 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	48	623		strcat __strbufmain, __main_7qG2_x_7qG2_000
+0	47	627	#line 47 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	48	627		mov __strtmpbufmain, __strbufmain
+0	48	629	#line 48 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	49	629		strcat __strbufmain, __constStr0012
+0	48	633	#line 48 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	49	633		cmp 4, __zfmain, __strtmpbufmain, __strbufmain
+0	48	637	#line 48 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	49	637		mov __D0main, __zfmain
+0	49	639	#line 49 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	50	639		brtst 4, __NXC_Label_650, __zfmain
+0	51	642	#line 51 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	52	642		set __SumoEyes_DetectObstacleZone_7qG2_port_7qG2_000, 2
+0	51	645	#line 51 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	52	645	#line 52 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	53	645		subcall SumoEyes_DetectObstacleZone, __SumoEyes_DetectObstacleZone_return
+0	52	647	#line 52 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	53	647		mov __main_7qG2_ob_7qG2_000, __D0SumoEyes_DetectObstacleZone
+0	52	649	#line 52 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	52	649	#line 52 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	52	649	#line 52 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	53	649		mov __SE_OBZoneToString_7qG2_ob_7qG2_000, __D0SumoEyes_DetectObstacleZone
+0	52	651	#line 52 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	53	651	#line 53 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	54	651		subcall SE_OBZoneToString, __SE_OBZoneToString_return
+0	53	653	#line 53 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	54	653		mov __strretvalmain, __strbufSE_OBZoneToString
+0	53	655	#line 53 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	54	655		strcat __strbufmain, __strretvalmain
+0	53	659	#line 53 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	54	659		mov __main_7qG2_x_7qG2_000, __strbufmain
+0	53	661	#line 53 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	53	661	#line 53 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	54	661		mov __signed_stack_001main, __constValNeg20
+0	53	663	#line 53 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	53	663	#line 53 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	54	663		mov __D0main, __constValNeg100
+0	54	665	#line 54 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	55	665	#pragma macro 7
+0	55	665		setout __OUT_BC, 2, __signed_stack_001main, 1, __constVal7, 8, __constVal2, 7, __D0main, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5186	688	#line 5186 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	54	688	#line 54 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	55	688	#line 55 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	56	688		strcat __strbufmain, __main_7qG2_x_7qG2_000
+0	55	692	#line 55 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	56	692		mov __strtmpbufmain, __strbufmain
+0	56	694	#line 56 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	57	694		strcat __strbufmain, __constStr0012
+0	56	698	#line 56 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	57	698		cmp 4, __zfmain, __strtmpbufmain, __strbufmain
+0	56	702	#line 56 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	57	702		mov __D0main, __zfmain
+0	56	704	#line 56 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	57	704		brtst 4, __NXC_Label_652, __zfmain
+0	56	707	#line 56 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	57	707		jmp __NXC_Label_651
+0	56	709	#line 56 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	56	709	#line 56 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	57	709		mov __signed_stack_001main, __constValNeg40
+0	56	711	#line 56 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	56	711	#line 56 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	57	711		set __D0main, 0
+0	57	714	#line 57 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	58	714	#pragma macro 7
+0	58	714		setout __OUT_BC, 2, __signed_stack_001main, 1, __constVal7, 8, __constVal2, 7, __D0main, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5217	737	#line 5217 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	57	737	#line 57 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	57	737	#line 57 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	58	737		set __Wait_7qG2_ms_7qG2_000_inline_main, 700
+0	57	740	#line 57 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	7921	740	#line 7921 "NXCDefs.h"
+0	7922	740		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	743	#line 7921 "NXCDefs.h"
+0	58	743	#line 58 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	59	743	#line 59 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	60	743	#pragma macro 7
+0	60	743		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5230	766	#line 5230 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	59	766	#line 59 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	59	766	#line 59 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	60	766		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	59	769	#line 59 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	7921	769	#line 7921 "NXCDefs.h"
+0	7922	769		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	772	#line 7921 "NXCDefs.h"
+0	60	772	#line 60 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	61	772	#line 61 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	62	772	#pragma macro 7
+0	62	772		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5243	795	#line 5243 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	61	795	#line 61 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	61	795	#line 61 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	62	795		mov __D0main, __constValNeg20
+0	62	797	#line 62 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	63	797	#pragma macro 7
+0	63	797		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5250	820	#line 5250 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	62	820	#line 62 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	62	820	#line 62 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	63	820		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	62	823	#line 62 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	7921	823	#line 7921 "NXCDefs.h"
+0	7922	823		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	826	#line 7921 "NXCDefs.h"
+0	63	826	#line 63 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	66	826	#line 66 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	66	826	#line 66 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	67	826		strcat __strbufmain, __main_7qG2_x_7qG2_000
+0	66	830	#line 66 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	67	830		mov __strtmpbufmain, __strbufmain
+0	67	832	#line 67 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	68	832		strcat __strbufmain, __constStr0011
+0	67	836	#line 67 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	68	836		cmp 4, __zfmain, __strtmpbufmain, __strbufmain
+0	67	840	#line 67 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	68	840		mov __D0main, __zfmain
+0	68	842	#line 68 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	69	842		brtst 4, __NXC_Label_679, __zfmain
+0	70	845	#line 70 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	71	845		set __SumoEyes_DetectObstacleZone_7qG2_port_7qG2_000, 2
+0	70	848	#line 70 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	71	848	#line 71 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	72	848		subcall SumoEyes_DetectObstacleZone, __SumoEyes_DetectObstacleZone_return
+0	71	850	#line 71 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	72	850		mov __main_7qG2_ob_7qG2_000, __D0SumoEyes_DetectObstacleZone
+0	71	852	#line 71 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	71	852	#line 71 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	71	852	#line 71 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	72	852		mov __SE_OBZoneToString_7qG2_ob_7qG2_000, __D0SumoEyes_DetectObstacleZone
+0	71	854	#line 71 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	72	854	#line 72 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	73	854		subcall SE_OBZoneToString, __SE_OBZoneToString_return
+0	72	856	#line 72 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	73	856		mov __strretvalmain, __strbufSE_OBZoneToString
+0	72	858	#line 72 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	73	858		strcat __strbufmain, __strretvalmain
+0	72	862	#line 72 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	73	862		mov __main_7qG2_x_7qG2_000, __strbufmain
+0	72	864	#line 72 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	72	864	#line 72 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	73	864		set __signed_stack_001main, 20
+0	72	867	#line 72 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	72	867	#line 72 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	73	867		set __D0main, 100
+0	73	870	#line 73 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	74	870	#pragma macro 7
+0	74	870		setout __OUT_BC, 2, __signed_stack_001main, 1, __constVal7, 8, __constVal2, 7, __D0main, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5320	893	#line 5320 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	73	893	#line 73 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	75	893	#line 75 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	76	893		strcat __strbufmain, __constStr0013
+0	75	897	#line 75 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	76	897		set __D0main, 1
+0	75	900	#line 75 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	76	900		tst 5, __zfmain, __D0main
+0	75	903	#line 75 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	76	903		brtst 4, __NXC_Label_681, __zfmain
+0	75	906	#line 75 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	76	906		jmp __NXC_Label_680
+0	75	908	#line 75 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	75	908	#line 75 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	76	908		mov __signed_stack_001main, __constValNeg40
+0	75	910	#line 75 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	75	910	#line 75 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	76	910		set __D0main, 0
+0	76	913	#line 76 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	77	913	#pragma macro 7
+0	77	913		setout __OUT_BC, 2, __signed_stack_001main, 1, __constVal7, 8, __constVal2, 7, __D0main, 6, __constVal32, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5347	936	#line 5347 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	76	936	#line 76 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	76	936	#line 76 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	77	936		set __Wait_7qG2_ms_7qG2_000_inline_main, 700
+0	76	939	#line 76 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	7921	939	#line 7921 "NXCDefs.h"
+0	7922	939		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	942	#line 7921 "NXCDefs.h"
+0	77	942	#line 77 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	78	942	#line 78 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	79	942	#pragma macro 7
+0	79	942		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5360	965	#line 5360 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	78	965	#line 78 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	78	965	#line 78 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	79	965		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	78	968	#line 78 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	7921	968	#line 7921 "NXCDefs.h"
+0	7922	968		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	971	#line 7921 "NXCDefs.h"
+0	79	971	#line 79 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	80	971	#line 80 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	81	971	#pragma macro 7
+0	81	971		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5373	994	#line 5373 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	80	994	#line 80 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	80	994	#line 80 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	81	994		mov __D0main, __constValNeg20
+0	81	996	#line 81 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	82	996	#pragma macro 7
+0	82	996		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5380	1019	#line 5380 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	81	1019	#line 81 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	81	1019	#line 81 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	82	1019		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	81	1022	#line 81 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	7921	1022	#line 7921 "NXCDefs.h"
+0	7922	1022		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	1025	#line 7921 "NXCDefs.h"
+0	82	1025	#line 82 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	85	1025	#line 85 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	87	1025	#line 87 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	88	1025		jmp __NXC_Label_563
+0	87	1027	#line 87 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+0	88	1027		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	5710	0	#pragma macro 25
+2	5710	0		acquire __CLSWMutex1
+2	5710	1		set __CLSWArgs1.Port, 1
+2	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+2	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+2	5710	8		syscall 21, __CLSWArgs1
+2	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+2	5710	13		release __CLSWMutex1
+2	5710	14	#line 5710 "NXTDefs.h"
+2	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+2	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+2	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+2	5714	24		set __RLSBIterations1, 4
+2	5716	27	#pragma macro 23
+2	5716	27		acquire __CLSCSMutex1
+2	5716	28		set __CLSCSArgs1.Port, 1
+2	5716	31		syscall 23, __CLSCSArgs1
+2	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+2	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+2	5716	38		release __CLSCSMutex1
+2	5716	39	#line 5716 "NXTDefs.h"
+2	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+2	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+2	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+2	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+2	5722	52		wait2 NA, __constVal15
+2	5723	55		jmp __RLSBDoCheckStatus1
+2	5726	57	#pragma macro 25
+2	5726	57		acquire __CLSRMutex1
+2	5726	58		set __CLSRArgs1.Port, 1
+2	5726	61		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+2	5726	63		syscall 22, __CLSRArgs1
+2	5726	66		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+2	5726	68		mov __RLSBResult1, __CLSRArgs1.Result
+2	5726	70		release __CLSRMutex1
+2	5726	71	#line 5726 "NXTDefs.h"
+2	5727	71		brtst 5, __RLSBError1, __RLSBResult1
+2	5728	74		mov __RLSLastGoodRead1, __RLSReadBuf1
+2	5729	76		jmp __RLSBDone1
+2	5731	78		mov __RLSReadBuf1, __RLSLastGoodRead1
+2	5733	80		arrsize __RLSBytesCount1, __RLSReadBuf1
+2	5735	83		subret ____ReadLSBytes1_return
+3	5784	0	#pragma macro 25
+3	5784	0		acquire __CLSWMutex3
+3	5784	1		set __CLSWArgs3.Port, 3
+3	5784	4		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+3	5784	6		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+3	5784	8		syscall 21, __CLSWArgs3
+3	5784	11		mov __RLSBResult3, __CLSWArgs3.Result
+3	5784	13		release __CLSWMutex3
+3	5784	14	#line 5784 "NXTDefs.h"
+3	5785	14		brtst 4, __RLSBReturn3, __RLSBytesCount3
+3	5786	17		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+3	5787	21		brtst 5, __RLSBError3, __RLSBResult3
+3	5788	24		set __RLSBIterations3, 4
+3	5790	27	#pragma macro 23
+3	5790	27		acquire __CLSCSMutex3
+3	5790	28		set __CLSCSArgs3.Port, 3
+3	5790	31		syscall 23, __CLSCSArgs3
+3	5790	34		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+3	5790	36		mov __RLSBResult3, __CLSCSArgs3.Result
+3	5790	38		release __CLSCSMutex3
+3	5790	39	#line 5790 "NXTDefs.h"
+3	5791	39		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+3	5792	43		brtst 2, __RLSBError3, __RLSBIterations3
+3	5793	46		brtst 0, __RLSBError3, __RLSBResult3
+3	5794	49		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+3	5796	52		wait2 NA, __constVal15
+3	5797	55		jmp __RLSBDoCheckStatus3
+3	5800	57	#pragma macro 25
+3	5800	57		acquire __CLSRMutex3
+3	5800	58		set __CLSRArgs3.Port, 3
+3	5800	61		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+3	5800	63		syscall 22, __CLSRArgs3
+3	5800	66		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+3	5800	68		mov __RLSBResult3, __CLSRArgs3.Result
+3	5800	70		release __CLSRMutex3
+3	5800	71	#line 5800 "NXTDefs.h"
+3	5801	71		brtst 5, __RLSBError3, __RLSBResult3
+3	5802	74		mov __RLSLastGoodRead3, __RLSReadBuf3
+3	5803	76		jmp __RLSBDone3
+3	5805	78		mov __RLSReadBuf3, __RLSLastGoodRead3
+3	5807	80		arrsize __RLSBytesCount3, __RLSReadBuf3
+3	5809	83		subret ____ReadLSBytes3_return
+4	28	0	#line 28 "SE-lib.nxc"
+4	29	0		mov __D0SE_OBZoneToString, __SE_OBZoneToString_7qG2_ob_7qG2_000
+4	32	2		brcmp 4, __NXC_Label_492, __constVal0, __D0SE_OBZoneToString
+4	33	6		brcmp 4, __NXC_Label_493, __constVal1, __D0SE_OBZoneToString
+4	34	10		brcmp 4, __NXC_Label_494, __constVal2, __D0SE_OBZoneToString
+4	35	14		brcmp 4, __NXC_Label_495, __constVal3, __D0SE_OBZoneToString
+4	36	18		jmp __NXC_Label_491
+4	30	20	#line 30 "SE-lib.nxc"
+4	31	20	#line 31 "SE-lib.nxc"
+4	32	20		strcat __strbufSE_OBZoneToString, __constStr0009
+4	31	24	#line 31 "SE-lib.nxc"
+4	32	24		subret __SE_OBZoneToString_return
+4	31	26	#line 31 "SE-lib.nxc"
+4	32	26	#line 32 "SE-lib.nxc"
+4	33	26		jmp __NXC_Label_491
+4	32	28	#line 32 "SE-lib.nxc"
+4	33	28	#line 33 "SE-lib.nxc"
+4	34	28	#line 34 "SE-lib.nxc"
+4	35	28		strcat __strbufSE_OBZoneToString, __constStr0010
+4	34	32	#line 34 "SE-lib.nxc"
+4	35	32		subret __SE_OBZoneToString_return
+4	34	34	#line 34 "SE-lib.nxc"
+4	35	34	#line 35 "SE-lib.nxc"
+4	36	34		jmp __NXC_Label_491
+4	35	36	#line 35 "SE-lib.nxc"
+4	36	36	#line 36 "SE-lib.nxc"
+4	37	36	#line 37 "SE-lib.nxc"
+4	38	36		strcat __strbufSE_OBZoneToString, __constStr0011
+4	37	40	#line 37 "SE-lib.nxc"
+4	38	40		subret __SE_OBZoneToString_return
+4	37	42	#line 37 "SE-lib.nxc"
+4	38	42	#line 38 "SE-lib.nxc"
+4	39	42		jmp __NXC_Label_491
+4	38	44	#line 38 "SE-lib.nxc"
+4	39	44	#line 39 "SE-lib.nxc"
+4	40	44	#line 40 "SE-lib.nxc"
+4	41	44		strcat __strbufSE_OBZoneToString, __constStr0012
+4	40	48	#line 40 "SE-lib.nxc"
+4	41	48		subret __SE_OBZoneToString_return
+4	40	50	#line 40 "SE-lib.nxc"
+4	41	50	#line 41 "SE-lib.nxc"
+4	41	50	#line 41 "SE-lib.nxc"
+4	44	50	#line 44 "SE-lib.nxc"
+4	44	50	#line 44 "SE-lib.nxc"
+4	45	50		subret __SE_OBZoneToString_return
+5	49	0	#line 49 "SE-lib.nxc"
+5	50	0		getin __SumoEyes_DetectObstacleZone_7qG2_se_value_7qG2_000, __SumoEyes_DetectObstacleZone_7qG2_port_7qG2_000, 3
+5	49	4	#line 49 "SE-lib.nxc"
+5	49	4	#line 49 "SE-lib.nxc"
+5	49	4	#line 49 "SE-lib.nxc"
+5	49	4	#line 49 "SE-lib.nxc"
+5	49	4	#line 49 "SE-lib.nxc"
+5	49	4	#line 49 "SE-lib.nxc"
+5	50	4		mul __signed_stack_001SumoEyes_DetectObstacleZone, __SumoEyes_DetectObstacleZone_7qG2_se_value_7qG2_000, __constVal100
+5	49	8	#line 49 "SE-lib.nxc"
+5	51	8	#line 51 "SE-lib.nxc"
+5	51	8	#line 51 "SE-lib.nxc"
+5	52	8		div __SumoEyes_DetectObstacleZone_7qG2_se_value_7qG2_000, __signed_stack_001SumoEyes_DetectObstacleZone, __constVal1023
+5	51	12	#line 51 "SE-lib.nxc"
+5	51	12	#line 51 "SE-lib.nxc"
+5	51	12	#line 51 "SE-lib.nxc"
+5	52	12		mov __signed_stack_001SumoEyes_DetectObstacleZone, __SumoEyes_DetectObstacleZone_7qG2_se_value_7qG2_000
+5	51	14	#line 51 "SE-lib.nxc"
+5	51	14	#line 51 "SE-lib.nxc"
+5	52	14		set __D0SumoEyes_DetectObstacleZone, 30
+5	51	17	#line 51 "SE-lib.nxc"
+5	52	17		cmp 1, __zfSumoEyes_DetectObstacleZone, __signed_stack_001SumoEyes_DetectObstacleZone, __D0SumoEyes_DetectObstacleZone
+5	51	21	#line 51 "SE-lib.nxc"
+5	52	21		mov __D0SumoEyes_DetectObstacleZone, __zfSumoEyes_DetectObstacleZone
+5	51	23	#line 51 "SE-lib.nxc"
+5	52	23		brtst 4, __NXC_Label_501, __zfSumoEyes_DetectObstacleZone
+5	51	26	#line 51 "SE-lib.nxc"
+5	52	26		mov __signed_stack_001SumoEyes_DetectObstacleZone, __D0SumoEyes_DetectObstacleZone
+5	51	28	#line 51 "SE-lib.nxc"
+5	52	28		mov __signed_stack_002SumoEyes_DetectObstacleZone, __SumoEyes_DetectObstacleZone_7qG2_se_value_7qG2_000
+5	51	30	#line 51 "SE-lib.nxc"
+5	51	30	#line 51 "SE-lib.nxc"
+5	52	30		set __D0SumoEyes_DetectObstacleZone, 36
+5	51	33	#line 51 "SE-lib.nxc"
+5	52	33		cmp 0, __zfSumoEyes_DetectObstacleZone, __signed_stack_002SumoEyes_DetectObstacleZone, __D0SumoEyes_DetectObstacleZone
+5	51	37	#line 51 "SE-lib.nxc"
+5	51	37	#line 51 "SE-lib.nxc"
+5	52	37		and __D0SumoEyes_DetectObstacleZone, __signed_stack_001SumoEyes_DetectObstacleZone, __zfSumoEyes_DetectObstacleZone
+5	53	41	#line 53 "SE-lib.nxc"
+5	54	41		tst 5, __zfSumoEyes_DetectObstacleZone, __D0SumoEyes_DetectObstacleZone
+5	53	44	#line 53 "SE-lib.nxc"
+5	54	44		brtst 4, __NXC_Label_502, __zfSumoEyes_DetectObstacleZone
+5	54	47	#line 54 "SE-lib.nxc"
+5	55	47		set __D0SumoEyes_DetectObstacleZone, 2
+5	54	50	#line 54 "SE-lib.nxc"
+5	55	50		subret __SumoEyes_DetectObstacleZone_return
+5	54	52	#line 54 "SE-lib.nxc"
+5	55	52	#line 55 "SE-lib.nxc"
+5	55	52	#line 55 "SE-lib.nxc"
+5	56	52		mov __signed_stack_001SumoEyes_DetectObstacleZone, __SumoEyes_DetectObstacleZone_7qG2_se_value_7qG2_000
+5	55	54	#line 55 "SE-lib.nxc"
+5	55	54	#line 55 "SE-lib.nxc"
+5	56	54		set __D0SumoEyes_DetectObstacleZone, 63
+5	55	57	#line 55 "SE-lib.nxc"
+5	56	57		cmp 1, __zfSumoEyes_DetectObstacleZone, __signed_stack_001SumoEyes_DetectObstacleZone, __D0SumoEyes_DetectObstacleZone
+5	55	61	#line 55 "SE-lib.nxc"
+5	56	61		mov __D0SumoEyes_DetectObstacleZone, __zfSumoEyes_DetectObstacleZone
+5	55	63	#line 55 "SE-lib.nxc"
+5	56	63		brtst 4, __NXC_Label_508, __zfSumoEyes_DetectObstacleZone
+5	55	66	#line 55 "SE-lib.nxc"
+5	56	66		mov __signed_stack_001SumoEyes_DetectObstacleZone, __D0SumoEyes_DetectObstacleZone
+5	55	68	#line 55 "SE-lib.nxc"
+5	56	68		mov __signed_stack_002SumoEyes_DetectObstacleZone, __SumoEyes_DetectObstacleZone_7qG2_se_value_7qG2_000
+5	55	70	#line 55 "SE-lib.nxc"
+5	55	70	#line 55 "SE-lib.nxc"
+5	56	70		set __D0SumoEyes_DetectObstacleZone, 69
+5	55	73	#line 55 "SE-lib.nxc"
+5	56	73		cmp 0, __zfSumoEyes_DetectObstacleZone, __signed_stack_002SumoEyes_DetectObstacleZone, __D0SumoEyes_DetectObstacleZone
+5	55	77	#line 55 "SE-lib.nxc"
+5	55	77	#line 55 "SE-lib.nxc"
+5	56	77		and __D0SumoEyes_DetectObstacleZone, __signed_stack_001SumoEyes_DetectObstacleZone, __zfSumoEyes_DetectObstacleZone
+5	57	81	#line 57 "SE-lib.nxc"
+5	58	81		tst 5, __zfSumoEyes_DetectObstacleZone, __D0SumoEyes_DetectObstacleZone
+5	57	84	#line 57 "SE-lib.nxc"
+5	58	84		brtst 4, __NXC_Label_509, __zfSumoEyes_DetectObstacleZone
+5	58	87	#line 58 "SE-lib.nxc"
+5	59	87		set __D0SumoEyes_DetectObstacleZone, 3
+5	58	90	#line 58 "SE-lib.nxc"
+5	59	90		subret __SumoEyes_DetectObstacleZone_return
+5	58	92	#line 58 "SE-lib.nxc"
+5	59	92	#line 59 "SE-lib.nxc"
+5	59	92	#line 59 "SE-lib.nxc"
+5	60	92		mov __signed_stack_001SumoEyes_DetectObstacleZone, __SumoEyes_DetectObstacleZone_7qG2_se_value_7qG2_000
+5	59	94	#line 59 "SE-lib.nxc"
+5	59	94	#line 59 "SE-lib.nxc"
+5	60	94		set __D0SumoEyes_DetectObstacleZone, 74
+5	59	97	#line 59 "SE-lib.nxc"
+5	60	97		cmp 3, __zfSumoEyes_DetectObstacleZone, __signed_stack_001SumoEyes_DetectObstacleZone, __D0SumoEyes_DetectObstacleZone
+5	59	101	#line 59 "SE-lib.nxc"
+5	60	101		mov __D0SumoEyes_DetectObstacleZone, __zfSumoEyes_DetectObstacleZone
+5	59	103	#line 59 "SE-lib.nxc"
+5	60	103		brtst 4, __NXC_Label_515, __zfSumoEyes_DetectObstacleZone
+5	59	106	#line 59 "SE-lib.nxc"
+5	60	106		mov __signed_stack_001SumoEyes_DetectObstacleZone, __D0SumoEyes_DetectObstacleZone
+5	59	108	#line 59 "SE-lib.nxc"
+5	60	108		mov __signed_stack_002SumoEyes_DetectObstacleZone, __SumoEyes_DetectObstacleZone_7qG2_se_value_7qG2_000
+5	59	110	#line 59 "SE-lib.nxc"
+5	59	110	#line 59 "SE-lib.nxc"
+5	60	110		set __D0SumoEyes_DetectObstacleZone, 80
+5	59	113	#line 59 "SE-lib.nxc"
+5	60	113		cmp 2, __zfSumoEyes_DetectObstacleZone, __signed_stack_002SumoEyes_DetectObstacleZone, __D0SumoEyes_DetectObstacleZone
+5	59	117	#line 59 "SE-lib.nxc"
+5	59	117	#line 59 "SE-lib.nxc"
+5	60	117		and __D0SumoEyes_DetectObstacleZone, __signed_stack_001SumoEyes_DetectObstacleZone, __zfSumoEyes_DetectObstacleZone
+5	61	121	#line 61 "SE-lib.nxc"
+5	62	121		tst 5, __zfSumoEyes_DetectObstacleZone, __D0SumoEyes_DetectObstacleZone
+5	61	124	#line 61 "SE-lib.nxc"
+5	62	124		brtst 4, __NXC_Label_516, __zfSumoEyes_DetectObstacleZone
+5	62	127	#line 62 "SE-lib.nxc"
+5	63	127		set __D0SumoEyes_DetectObstacleZone, 1
+5	62	130	#line 62 "SE-lib.nxc"
+5	63	130		subret __SumoEyes_DetectObstacleZone_return
+5	62	132	#line 62 "SE-lib.nxc"
+5	63	132	#line 63 "SE-lib.nxc"
+5	64	132	#line 64 "SE-lib.nxc"
+5	65	132		set __D0SumoEyes_DetectObstacleZone, 0
+5	64	135	#line 64 "SE-lib.nxc"
+5	65	135		subret __SumoEyes_DetectObstacleZone_return
+5	64	137	#line 64 "SE-lib.nxc"
+5	66	137	#line 66 "SE-lib.nxc"
+5	67	137		subret __SumoEyes_DetectObstacleZone_return
+6	68	0	#line 68 "SE-lib.nxc"
+6	69	0		mov __SetSensorType_7qG2_port_7qG2_000_inline_SumoEyes_SetLongRange, __SumoEyes_SetLongRange_7qG2_port_7qG2_000
+6	68	2	#line 68 "SE-lib.nxc"
+6	68	2	#line 68 "SE-lib.nxc"
+6	69	2		set __SetSensorType_7qG2_type_7qG2_000_inline_SumoEyes_SetLongRange, 6
+6	68	5	#line 68 "SE-lib.nxc"
+6	3663	5	#line 3663 "NXCDefs.h"
+6	3664	5		setin __SetSensorType_7qG2_type_7qG2_000_inline_SumoEyes_SetLongRange, __SetSensorType_7qG2_port_7qG2_000_inline_SumoEyes_SetLongRange, 0
+6	3663	9	#line 3663 "NXCDefs.h"
+6	69	9	#line 69 "SE-lib.nxc"
+6	69	9	#line 69 "SE-lib.nxc"
+6	70	9		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SumoEyes_SetLongRange, __SumoEyes_SetLongRange_7qG2_port_7qG2_000
+6	69	11	#line 69 "SE-lib.nxc"
+6	69	11	#line 69 "SE-lib.nxc"
+6	70	11		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SumoEyes_SetLongRange, 128
+6	69	14	#line 69 "SE-lib.nxc"
+6	3676	14	#line 3676 "NXCDefs.h"
+6	3677	14		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SumoEyes_SetLongRange, __SetSensorMode_7qG2_port_7qG2_000_inline_SumoEyes_SetLongRange, 1
+6	3676	18	#line 3676 "NXCDefs.h"
+6	70	18	#line 70 "SE-lib.nxc"
+6	70	18	#line 70 "SE-lib.nxc"
+6	71	18		mov __unsigned_stack_001SumoEyes_SetLongRange, currRange
+6	70	20	#line 70 "SE-lib.nxc"
+6	70	20	#line 70 "SE-lib.nxc"
+6	71	20		set __D0SumoEyes_SetLongRange, 6
+6	70	23	#line 70 "SE-lib.nxc"
+6	71	23		cmp 5, __zfSumoEyes_SetLongRange, __unsigned_stack_001SumoEyes_SetLongRange, __D0SumoEyes_SetLongRange
+6	70	27	#line 70 "SE-lib.nxc"
+6	71	27		mov __D0SumoEyes_SetLongRange, __zfSumoEyes_SetLongRange
+6	71	29	#line 71 "SE-lib.nxc"
+6	72	29		brtst 4, __NXC_Label_535, __zfSumoEyes_SetLongRange
+6	71	32	#line 71 "SE-lib.nxc"
+6	72	32		mov __ResetSensor_7qG2_port_7qG2_000_inline_SumoEyes_SetLongRange, __SumoEyes_SetLongRange_7qG2_port_7qG2_000
+6	71	34	#line 71 "SE-lib.nxc"
+6	3694	34	#line 3694 "NXCDefs.h"
+6	3695	34	#pragma macro 4
+6	3695	34		acquire __ResetSensorMutex
+6	3695	35		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SumoEyes_SetLongRange
+6	3695	37		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+6	3695	39		release __ResetSensorMutex
+6	4376	40	#line 4376 "NXCDefs.h"
+6	3694	40	#line 3694 "NXCDefs.h"
+6	72	40	#line 72 "SE-lib.nxc"
+6	72	40	#line 72 "SE-lib.nxc"
+6	73	40		set __Wait_7qG2_ms_7qG2_000_inline_SumoEyes_SetLongRange, 275
+6	72	43	#line 72 "SE-lib.nxc"
+6	7921	43	#line 7921 "NXCDefs.h"
+6	7922	43		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_SumoEyes_SetLongRange
+6	7921	46	#line 7921 "NXCDefs.h"
+6	73	46	#line 73 "SE-lib.nxc"
+6	74	46	#line 74 "SE-lib.nxc"
+6	75	46	#line 75 "SE-lib.nxc"
+6	76	46		set currRange, 6
+6	75	49	#line 75 "SE-lib.nxc"
+6	75	49	#line 75 "SE-lib.nxc"
+6	77	49	#line 77 "SE-lib.nxc"
+6	78	49		subret __SumoEyes_SetLongRange_return
+7	79	0	#line 79 "SE-lib.nxc"
+7	80	0		mov __SetSensorType_7qG2_port_7qG2_000_inline_SumoEyes_SetShortRange, __SumoEyes_SetShortRange_7qG2_port_7qG2_000
+7	79	2	#line 79 "SE-lib.nxc"
+7	79	2	#line 79 "SE-lib.nxc"
+7	80	2		set __SetSensorType_7qG2_type_7qG2_000_inline_SumoEyes_SetShortRange, 5
+7	79	5	#line 79 "SE-lib.nxc"
+7	3663	5	#line 3663 "NXCDefs.h"
+7	3664	5		setin __SetSensorType_7qG2_type_7qG2_000_inline_SumoEyes_SetShortRange, __SetSensorType_7qG2_port_7qG2_000_inline_SumoEyes_SetShortRange, 0
+7	3663	9	#line 3663 "NXCDefs.h"
+7	80	9	#line 80 "SE-lib.nxc"
+7	80	9	#line 80 "SE-lib.nxc"
+7	81	9		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SumoEyes_SetShortRange, __SumoEyes_SetShortRange_7qG2_port_7qG2_000
+7	80	11	#line 80 "SE-lib.nxc"
+7	80	11	#line 80 "SE-lib.nxc"
+7	81	11		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SumoEyes_SetShortRange, 128
+7	80	14	#line 80 "SE-lib.nxc"
+7	3676	14	#line 3676 "NXCDefs.h"
+7	3677	14		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SumoEyes_SetShortRange, __SetSensorMode_7qG2_port_7qG2_000_inline_SumoEyes_SetShortRange, 1
+7	3676	18	#line 3676 "NXCDefs.h"
+7	81	18	#line 81 "SE-lib.nxc"
+7	81	18	#line 81 "SE-lib.nxc"
+7	82	18		mov __unsigned_stack_001SumoEyes_SetShortRange, currRange
+7	81	20	#line 81 "SE-lib.nxc"
+7	81	20	#line 81 "SE-lib.nxc"
+7	82	20		set __D0SumoEyes_SetShortRange, 5
+7	81	23	#line 81 "SE-lib.nxc"
+7	82	23		cmp 5, __zfSumoEyes_SetShortRange, __unsigned_stack_001SumoEyes_SetShortRange, __D0SumoEyes_SetShortRange
+7	81	27	#line 81 "SE-lib.nxc"
+7	82	27		mov __D0SumoEyes_SetShortRange, __zfSumoEyes_SetShortRange
+7	82	29	#line 82 "SE-lib.nxc"
+7	83	29		brtst 4, __NXC_Label_552, __zfSumoEyes_SetShortRange
+7	82	32	#line 82 "SE-lib.nxc"
+7	83	32		mov __ResetSensor_7qG2_port_7qG2_000_inline_SumoEyes_SetShortRange, __SumoEyes_SetShortRange_7qG2_port_7qG2_000
+7	82	34	#line 82 "SE-lib.nxc"
+7	3694	34	#line 3694 "NXCDefs.h"
+7	3695	34	#pragma macro 4
+7	3695	34		acquire __ResetSensorMutex
+7	3695	35		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SumoEyes_SetShortRange
+7	3695	37		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+7	3695	39		release __ResetSensorMutex
+7	4484	40	#line 4484 "NXCDefs.h"
+7	3694	40	#line 3694 "NXCDefs.h"
+7	83	40	#line 83 "SE-lib.nxc"
+7	83	40	#line 83 "SE-lib.nxc"
+7	84	40		set __Wait_7qG2_ms_7qG2_000_inline_SumoEyes_SetShortRange, 275
+7	83	43	#line 83 "SE-lib.nxc"
+7	7921	43	#line 7921 "NXCDefs.h"
+7	7922	43		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_SumoEyes_SetShortRange
+7	7921	46	#line 7921 "NXCDefs.h"
+7	84	46	#line 84 "SE-lib.nxc"
+7	85	46	#line 85 "SE-lib.nxc"
+7	86	46	#line 86 "SE-lib.nxc"
+7	87	46		set currRange, 5
+7	86	49	#line 86 "SE-lib.nxc"
+7	86	49	#line 86 "SE-lib.nxc"
+7	87	49	#line 87 "SE-lib.nxc"
+7	88	49		subret __SumoEyes_SetShortRange_return
+8	88	0	#line 88 "Y:\亞洲機器人大賽\SUMOEYES.nxc"
+8	89	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	Y:\亞洲機器人大賽\SUMOEYES.nxc
+1	__ResetSensorSubroutine	1030	NXTDefs.h
+2	__ReadLSBytes1	1043	NXTDefs.h
+3	__ReadLSBytes3	1128	NXTDefs.h
+4	SE_OBZoneToString	1213	SE-lib.nxc
+5	SumoEyes_DetectObstacleZone	1265	SE-lib.nxc
+6	SumoEyes_SetLongRange	1404	SE-lib.nxc
+7	SumoEyes_SetShortRange	1455	SE-lib.nxc
+8	__initialize_global_data	1506	Y:\亞洲機器人大賽\SUMOEYES.nxc

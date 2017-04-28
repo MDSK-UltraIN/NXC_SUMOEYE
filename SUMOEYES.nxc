@@ -1,0 +1,86 @@
+  #include "SE-lib.nxc"
+  #define battle 25
+  task main()
+  {
+  int ob,ob1;
+    string x,y;
+    SetSensorLowspeed(S4);
+    SetSensorLowspeed(S2);
+
+    while(true)
+    {
+    
+               SumoEyes_SetLongRange(S3);
+               SumoEyes_SetShortRange(S3);
+               ob=SumoEyes_DetectObstacleZone(S3);
+               x = SE_OBZoneToString(ob);
+               ob1 = SumoEyes_DetectObstacleZone(S3);
+               y = SE_OBZoneToString(ob);
+               NumOut(0,LCD_LINE3,SensorUS(S2),true);
+               NumOut(80,LCD_LINE4,SensorUS(S4),true);
+               OnFwdSync(OUT_BC,-50,0);
+               TextOut(0,LCD_LINE1, x);
+               TextOut(0,LCD_LINE2, y);
+               if(SensorUS(S4) <25 || SensorUS(S2)<25)
+               {
+                OnFwdSync(OUT_BC,-20,0);
+               }
+               if(x=="FRONT")
+                {
+                 Off(OUT_BC);
+                 //OnFwdSync(OUT_BC,-50,100);
+                 do
+                 {
+                 ob=SumoEyes_DetectObstacleZone(S3);
+                 x = SE_OBZoneToString(ob);
+                   OnFwdSync(OUT_BC,-20,100);
+
+                 }
+                 while(x=="FRONT")
+                 OnFwdSync(OUT_BC,-40,0);
+                 Wait(800);
+                 Off(OUT_BC);
+                 Wait(200);
+                 Off(OUT_B);
+                 OnFwd(OUT_C,-20);
+                 Wait(500);
+                 }
+                if(x=="RIGHT")
+                {
+                do
+                {
+                ob=SumoEyes_DetectObstacleZone(S3);
+                 x = SE_OBZoneToString(ob);
+                  OnFwdSync(OUT_BC,-20,-100);
+                }
+                while (x=="RIGHT")
+                OnFwdSync(OUT_BC,-40,0);
+                 Wait(800);
+                 Off(OUT_BC);
+                 Wait(200);
+                 Off(OUT_B);
+                 OnFwd(OUT_C,-20);
+                 Wait(500);
+                }
+
+
+                if(x=="LEFT")
+                {
+                do
+                {
+                ob=SumoEyes_DetectObstacleZone(S3);
+                 x = SE_OBZoneToString(ob);
+                  OnFwdSync(OUT_BC,20,100);
+                }
+                while ("condition")
+                OnFwdSync(OUT_BC,-40,0);
+                 Wait(800);
+                 Off(OUT_BC);
+                 Wait(200);
+                 Off(OUT_C);
+                 OnFwd(OUT_B,-20);
+                 Wait(500);
+                }
+
+     }
+  }

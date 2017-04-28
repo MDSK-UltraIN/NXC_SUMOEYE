@@ -1,0 +1,12 @@
+  #include "SE-lib.nxc"
+  task main()
+  { int ob;
+    string x,y;
+
+    while(true)
+    {
+               OnFwdSync(OUT_BC,-50,0);
+
+
+    }
+}
